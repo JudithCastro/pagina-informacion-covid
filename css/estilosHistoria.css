@@ -1,0 +1,146 @@
+            /* Hoja de Estilos Conoravirus e Historia */
+
+    /* Cuerpo */
+/* Expliación - Coronavirus */
+.explicacion p{
+    max-width: 26rem;
+}
+
+.explicacion p:nth-child(2){
+    padding-bottom: 0.2rem;
+}
+
+.explicacion span{
+    font-style: italic;
+}
+
+
+
+/* Imagen y texto */
+.secciones{
+    padding-bottom: 4rem;
+    width: 100%;
+}
+
+.secciones .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cuatro{
+    padding-bottom: 0;
+}
+
+.foto, .video{
+    width: 100%;
+    max-width: 35.63rem;
+}
+
+.foto img{
+    width: 100%;
+}
+
+.info{
+    text-align: center;
+    padding: 1rem 0;
+    max-width: 38rem;
+    width: 100%;
+    font-size: 0.933rem;
+    color: #232323;
+}
+
+.info h2{
+    padding-bottom: 2rem;
+    padding-top: 1.33rem;
+}
+
+.linea p:nth-child(1){
+    padding-bottom: 1.33rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+.info p, .info ul{
+    padding-bottom: 1.66rem;
+}
+
+.info ul{
+    list-style-type: none;
+    font-style: italic;
+}
+
+@media all and (min-width: 750px){
+    .secciones{
+        padding-top: 4rem;
+    }
+
+    .foto{
+        margin-right: 30px;
+    }
+
+    .video, .dos{
+        margin-left: 30px;
+        margin-right: 0;
+    }
+
+    .info{
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    .info li{
+        list-style-position: inside;
+        list-style-image: url(../img/virus-bullet.jpeg);
+    }
+
+    .tres{
+        margin-top: 1rem;
+    }
+}
+
+
+
+/* Imagenes */
+.imagenes{
+    width: 100%;
+    padding-bottom: 4rem;
+    background: #616161;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #9bc5c3, #616161);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #9bc5c3, #616161); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.imagenes .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.imagenes .imagen{
+    padding-top: 4rem;
+    width: 95%;
+    align-items: center;
+    max-width: 36rem;
+}
+
+.imagenes img{
+    width: 100%;
+}
+
+.imagenes .contenedor img:nth-child(2){
+    margin-top: 0.5rem;
+}
+
+
+
+/* Parte final */
+.explicacion .final p{
+    padding: 2.66rem 0;
+    max-width: 30rem;
+}

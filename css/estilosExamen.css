@@ -1,0 +1,103 @@
+            /* Hoja de Estilos Test */
+
+    /* Cuerpo */
+/* Explicación */
+.explicacion p:nth-child(2), .explicacion p:nth-child(3){
+    padding-bottom: 0.2rem;
+}
+
+.explicacion p{
+    max-width: 30rem;
+}
+
+
+
+/* Test */
+.test{
+    padding-top: 4rem;
+    width: 100%;
+    padding-bottom: 5.33rem;
+}
+
+.test .contenedor{
+    background: #007991;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test form{
+    background-color: #ffffff;
+    width: 75%;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+    margin: 30px auto;
+}
+
+fieldset{
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+legend{
+    font-size: 1.3333rem;
+    color: #43C6D5;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.test form .grupo{
+    position: relative;
+    margin: 45px;
+}
+
+.test .grupo input{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 10px 10px 5px;
+    display: inline-block;
+    width: 40px;
+}
+
+.grupo label{
+    color: #007991;
+    font: 1rem;
+    top: -10px;
+    position: relative;
+    pointer-events: none;
+}
+
+.grupo span{
+    font-weight: bold;
+}
+
+.test form .botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones .boton{
+    background: #007991;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right #78ffd6, #007991);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,174 @@
+            /* Hoja de Estilos Inicio */
+    
+    /* Cuerpo */
+/* Historia */
+.historia{
+    padding-bottom: 4rem;
+    width: 100%;
+}
+
+.historia .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foto-china{
+    width: 100%;
+    max-width: 35.63rem;
+}
+
+.foto-china img{
+    width: 100%;
+}
+
+.info-historia{
+    text-align: center;
+    padding: 1rem 0;
+    max-width: 38rem;
+}
+
+.info-historia p:nth-child(1){
+    font-size: 0.933rem;
+    color: #232323;
+    padding-bottom: 1.33rem;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+
+.info-historia h2{
+    padding-bottom: 2rem;
+    padding-top: 1.33rem;
+}
+
+.info-historia p:nth-child(3){
+    color: #232323;
+    font-size: 0.933rem;
+    padding-bottom: 1.66rem;
+}
+
+.cursivas{
+    font-style: italic;
+}
+
+.info-historia p:nth-child(4){
+    color: #7A7A7A;
+    font-size: 0.933rem;
+    padding-bottom: 1.33rem;
+}
+
+.info-historia a{
+    color: #77ADB3;
+    font-size: 1rem;
+}
+
+@media all and (min-width: 750px){
+    .historia{
+        padding-top: 4rem;
+    }
+
+    .foto-china{
+        margin-right: 30px;
+    }
+
+    .info-historia{
+        padding-left: 30px;
+        text-align: left;
+    }
+}
+
+
+
+/* Información Medica */
+.sintomas-prevencion-vacuna{
+    width: 100%;
+}
+
+.sintomas-prevencion-vacuna  .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sintomas-prevencion-vacuna .widget{
+    text-align: center;
+    padding-bottom: 2.33rem;
+    padding-top: 1.33rem;
+    color: #232323;
+    max-width: 18rem;
+    margin: 0 auto;
+    border-top: 2px solid black;
+}
+
+.sintomas-prevencion-vacuna .widget h2{
+    padding-bottom: 2.33rem;
+}
+
+.sintomas-prevencion-vacuna .widget p{
+    font-size: 0.933rem;
+    padding-bottom: 1.33rem;
+}
+
+.sintomas-prevencion-vacuna a{
+    padding-bottom: 1.333rem;
+}
+
+.sintomas-prevencion-vacuna img{
+    width: 100%;
+}
+
+.sintomas-prevencion-vacuna img:hover{
+    transform: scale(1.2, 1.2);
+}
+
+
+
+/* Preguntar y opinión */
+.preguntas-opinion{
+    padding-bottom: 5.33rem;
+    width: 100%;
+    background: #616161;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #9bc5c3, #616161);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #9bc5c3, #616161); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.preguntas-opinion .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedor-preguntas-opinion{
+    text-align: center;
+    padding: 1rem 0;
+    max-width: 38rem;
+}
+
+.contenedor-preguntas-opinion h2{
+    padding-bottom: 2rem;
+    padding-top: 1.333rem;
+    color: #ffffff;
+}
+
+.contenedor-preguntas-opinion p{
+    color:#232323;
+    font-size: 0.933rem;
+    padding-bottom: 1.33rem;
+    line-height: 20px;
+}
+
+.preguntas-comentario{
+    font-size: 1rem;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.contenedor-preguntas-opinion a{
+    color: #ffffff;
+    font-size: 1rem;
+}

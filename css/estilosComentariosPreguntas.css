@@ -1,0 +1,321 @@
+            /* Hoja de Estilos de las Preguntas y los Comentarios */
+
+    /* Cuerpo */
+/* Explicación - Preguntas frecuentes */
+.explicacion p:nth-child(2){
+    padding-bottom: 1rem;
+}
+
+/* Preguntas */
+.seccion-preguntas{
+    width: 100%;
+    padding-bottom: 8rem;
+}
+
+.seccion-preguntas .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.seccion-preguntas .widget{
+    text-align: left;
+    padding-bottom: 2.33rem;
+    padding-top: 1.33rem;
+    padding-left: 1.33rem;
+    padding-right: 0.666rem;
+    color: #232323;
+    max-width: 23rem;
+    margin: 20px auto;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    border-radius: 10px;
+}
+
+.seccion-preguntas .widget h3{
+    padding-bottom: 2.33rem;
+    color: #77ADB3;
+}
+
+.seccion-preguntas .widget p{
+    font-size: 0.933rem;
+    padding-bottom: 1.33rem;
+}
+
+.seccion-preguntas .widget li{
+    line-height: 1.5rem;
+    list-style-image: url(../img/virus-bullet.jpeg);
+}
+
+.seccion-preguntas .widget:nth-child(1){
+    order: 1;
+}
+
+.seccion-preguntas .widget:nth-child(2){
+    order: 2;
+}
+
+.seccion-preguntas .widget:nth-child(3){
+    order: 3;
+}
+
+.seccion-preguntas .widget:nth-child(7){
+    order: 4;
+}
+
+.seccion-preguntas .widget:nth-child(13){
+    order: 5;
+}
+
+.seccion-preguntas .widget:nth-child(16){
+    order: 6;
+}
+
+.seccion-preguntas .widget:nth-child(4){
+    order: 7;
+}
+
+.seccion-preguntas .widget:nth-child(6){
+    order: 8;
+}
+
+.seccion-preguntas .widget:nth-child(8){
+    order: 9;
+}
+
+.seccion-preguntas .widget:nth-child(5){
+    order: 10;
+}
+
+.seccion-preguntas .widget:nth-child(11){
+    order: 11;
+}
+
+.seccion-preguntas .widget:nth-child(12){
+    order: 12;
+}
+
+.seccion-preguntas .widget:nth-child(17){
+    order: 13;
+}
+
+.seccion-preguntas .widget:nth-child(14){
+    order: 14;
+}
+
+.seccion-preguntas .widget:nth-child(18){
+    order: 15;
+}
+
+.seccion-preguntas .widget:nth-child(10){
+    order: 16;
+}
+
+.seccion-preguntas .widget:nth-child(15){
+    order: 17;
+}
+
+.seccion-preguntas .widget:nth-child(19){
+    order: 18;
+}
+
+.seccion-preguntas .widget:nth-child(9){
+    order: 19;
+    max-width: 40rem;
+    margin: 20px;
+}
+
+@media all and (min-width: 736px) and (max-width: 1104px){
+    .seccion-preguntas .widget:nth-child(17){
+        order: 15;
+    }
+
+    .seccion-preguntas .widget:nth-child(18){
+        order: 13;
+    }
+}
+
+@media all and (min-width: 680px){
+    .seccion-preguntas .widget:nth-child(9){
+        order: 19;
+        max-width: 60rem;
+        margin: auto;
+    }
+}
+
+@media all and (min-width: 300px){
+    .seccion-preguntas .widget:nth-child(9){
+        margin: 20px auto;
+    }
+}
+
+
+
+/* Comentarios */
+.seccion-comentarios{
+    width: 100%;
+    padding-bottom: 5.33rem;
+}
+
+.seccion-comentarios .contenedor{
+    background: #007991;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+legend{
+    font-size: 1.3333rem;
+    color: #43C6D5;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.seccion-comentarios form{
+    background-color: #ffffff;
+    width: 40%;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+    margin: 30px auto;
+}
+
+fieldset{
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.seccion-comentarios form .grupo{
+    position: relative;
+    margin: 45px;
+}
+
+.grupo input, .grupo textarea{
+    font-family: 'Ubuntu', sans-serif;
+    background: none;
+    color: #979893;
+    font-size: 1rem;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #73746F;
+    resize: none;
+    text-align: right;
+}
+
+.grupo .radio{
+    display: inline-block;
+    width: 40px;
+}
+
+.grupo input:focus, .grupo textarea:focus{
+    outline: none;
+    color: rgb(94, 93, 93);
+    text-align: left;
+}
+
+.grupo input:focus ~ label, .grupo textarea:focus ~ label{
+    position: absolute;
+    top: -14px;
+    font-size: 12px;
+    color: #007991;
+}
+
+.grupo label{
+    color: #73746F;
+    font: 1rem;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: all 0.5s ease;
+    pointer-events: none;
+}
+
+.grupo textarea ~ label{
+    top: -3px;
+}
+
+.cont-radio label{
+    font: 1rem;
+    top: -10px;
+}
+
+.grupo .barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.grupo .barra::before{
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to left, #007991, #78ffd6);
+    transition: all 0.7s ease;
+    left: 0;
+}
+
+.grupo input:focus ~ .barra::before, .grupo textarea:focus ~ .barra::before{
+    width: 100%;
+}
+
+#nombre-comentario{
+    text-transform: capitalize;
+}
+
+.seccion-comentarios form .botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones .boton{
+    background: #007991;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right #78ffd6, #007991);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media all and (max-width: 1100px){
+    .seccion-comentarios form{
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 600px){
+    .seccion-comentarios form{
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 450px){
+    .seccion-comentarios form{
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 300px){
+    .seccion-comentarios form{
+        width: 90%;
+    }
+}
